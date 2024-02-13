@@ -14,7 +14,7 @@ Train an SVM on Amazon Prime Video's movie review dataset to classify each revie
 
 #### Lemmatization
 
-- Imagine a model that sees the word “good” hundreds of times in the training data, associating its presence with positive sentiment. Suppose the word “best” wasn’t in the training dataset, and the model isn’t able to apply any of its knowledge of the word “good” to it, despite the two words having the same lexical root.
+- Imagine a model that sees the word “good” hundreds of times in the training data, correctly associating its presence with positive sentiment. Suppose the word “best” wasn’t in the training dataset, and the model isn’t able to apply any of its knowledge of the word “good” to it, despite the two words having the same lexical root.
 - Lemmatization solves this problem, reducing all words to their root value before feature engineering, so that we can gain more value in our word comparisons.
 - Additionally, it reduces the feature space greatly.
 
